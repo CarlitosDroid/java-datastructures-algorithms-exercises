@@ -11,6 +11,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 
 # STRING
 60. Reverse a string
+61. Rotate the array by `d` position to the left
 
 # LINKED LIST
 
