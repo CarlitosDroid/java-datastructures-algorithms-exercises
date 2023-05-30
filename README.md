@@ -17,3 +17,9 @@ In this repo you will find more than 100 solutions to the most known interview d
 # LINKED LIST
 
 # STACK
+
+# QUEUE
+
+# HASH MAP
+
+
