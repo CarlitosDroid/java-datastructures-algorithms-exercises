@@ -3,7 +3,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 
 
 # ARRAY
-1. working...
+1. Find an element which is not smaller than its neighbours.
 
 # MATRIX
 30.
