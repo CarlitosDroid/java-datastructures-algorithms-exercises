@@ -16,10 +16,14 @@ In this repo you will find more than 100 solutions to the most known interview d
 
 # LINKED LIST
 
+# SET
+
 # STACK
 
 # QUEUE
 
 # HASH MAP
 
+# TREE
+240. working
 
