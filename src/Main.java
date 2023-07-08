@@ -5,6 +5,10 @@ public class Main {
         System.out.println("The element is " + findElementHigherThanNeighbours(array));
     }
 
+    /**
+     * Time Complexity: O(n)
+     *
+     */
     private static int findElementHigherThanNeighbours(int[] array) {
         for (int i = 1; i < array.length - 1; i++) {
             if (array[i] > array[i-1] && array[i] > array[i+1]) {
