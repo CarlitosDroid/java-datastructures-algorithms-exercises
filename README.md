@@ -3,7 +3,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 
 
 # ARRAY
-1. working...
+1. Find the k'th smallest/largest element in unsorted array
 
 # MATRIX
 30.
@@ -15,6 +15,8 @@ In this repo you will find more than 100 solutions to the most known interview d
 62. Get index, lastIndex, indexFromIndex of a character, char of a string, search substring and verify string contains a sequence
 
 # LINKED LIST
+
+# SET
 
 # STACK
 
