@@ -9,6 +9,10 @@ public class Main {
         System.out.println("The reverse array is " + Arrays.toString(reverseArray(array)));
     }
 
+    /**
+     * Time Complexity O(n)
+     * Space Complexity 0(1)
+     */
     private static int[] reverseArray(int[] array) {
 
         int leftPosition = 0;
