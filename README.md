@@ -25,5 +25,5 @@ In this repo you will find more than 100 solutions to the most known interview d
 # HASH MAP
 
 # TREE
-240. working
+240. Get maximum element in a min heap
 
