@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         int[] array = new int[]{3, 1, 0, -1, 9};
         getMaximumAndMinimum(array);
+        getMaximum(array);
     }
 
     /**
@@ -26,6 +27,15 @@ public class Main {
 
         System.out.println("The maximum is " + maximum);
         System.out.println("The minimum is " + minimum);
+    }
+
+    private static void getMaximum(int[] array) {
+        int maximum = Integer.MIN_VALUE;
+
+        for (int i = 0; i < array.length; i++) {
+            maximum = Math.max(array[i], maximum);
+        }
+        System.out.println("The maximum is " + maximum);
     }
 
 }
