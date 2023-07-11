@@ -3,7 +3,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 
 
 # ARRAY
-1. working...
+1. Segregate 0s and 1s in an array
 
 # MATRIX
 30.
