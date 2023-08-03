@@ -22,6 +22,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 62. Get index, lastIndex, indexFromIndex of a character, char of a string, search substring and verify string contains a sequence
 63. Sort string of characters
 64. Print the frequency of each character in Alphabetical order
+65. Print all substrings of a given string
 
 
 # LINKED LIST
