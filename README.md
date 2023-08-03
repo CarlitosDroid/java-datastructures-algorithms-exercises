@@ -23,7 +23,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 63. Sort string of characters
 64. Print the frequency of each character in Alphabetical order
 65. Print all substrings of a given string
-
+66. Check if a given string is Palindrome
 
 # LINKED LIST
 
