@@ -3,7 +3,14 @@ In this repo you will find more than 100 solutions to the most known interview d
 
 
 # ARRAY
-1. working...
+1. Reverse an int array.
+2. Get Maximum and minimum elements of an array.
+3. Find an element which is not smaller than its neighbours.
+4. Find the k'th smallest/largest element in unsorted array
+5. Return an array containing the product and sorted from smallest to largest.
+6. Segregate 0s and 1s in an array
+7. find subarray with given sum
+8. Given an array. Calculate the maximum sum of `k` consecutive elements
 
 # MATRIX
 30.
@@ -13,6 +20,9 @@ In this repo you will find more than 100 solutions to the most known interview d
 60. Reverse a string. [branch_60](https://github.com/CarlitosDroid/java-datastructures-algorithms-exercises/tree/exercise_60)
 61. Rotate the array by `d` position to the left. [branch_61](https://github.com/CarlitosDroid/java-datastructures-algorithms-exercises/tree/exercise_61)
 62. Get index, lastIndex, indexFromIndex of a character, char of a string, search substring and verify string contains a sequence
+63. Sort string of characters
+64. Print the frequency of each character in Alphabetical order
+
 
 # LINKED LIST
 
