@@ -10,7 +10,8 @@ In this repo you will find more than 100 solutions to the most known interview d
 5. Return an array containing the product and sorted from smallest to largest.
 6. Segregate 0s and 1s in an array
 7. find subarray with given sum
-8. Given an array. Calculate the maximum sum of `k` consecutive elements
+8. Given an array. Calculate the maximum sum of `k` consecutive elements 
+9. Find the closest value to zero from an array of positives and negatives
 
 # MATRIX
 30.
@@ -25,7 +26,6 @@ In this repo you will find more than 100 solutions to the most known interview d
 65. Print all substrings of a given string
 66. Check if a given string is Palindrome
 67. Check if two strings are anagram of each other
-68. Find the closest value to zero from an array of positives and negatives
 
 # LINKED LIST
 
