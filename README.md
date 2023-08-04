@@ -12,6 +12,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 7. find subarray with given sum
 8. Given an array. Calculate the maximum sum of `k` consecutive elements 
 9. Find the closest value to zero from an array of positives and negatives
+10. Find minimum difference between 2 numbers in an array of size `n`
 
 # MATRIX
 30.
