@@ -24,6 +24,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 64. Print the frequency of each character in Alphabetical order
 65. Print all substrings of a given string
 66. Check if a given string is Palindrome
+67. Check if two strings are anagram of each other
 
 # LINKED LIST
 
