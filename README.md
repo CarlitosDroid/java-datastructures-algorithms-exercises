@@ -14,6 +14,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 9. Find the closest value to zero from an array of positives and negatives
 10. Find minimum difference between 2 numbers in an array of size `n`
 11. Find a pair of numbers that add up to a `target`.
+12. Sort binary array
 
 # MATRIX
 30.
