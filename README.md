@@ -16,6 +16,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 11. Find a pair of numbers that add up to a `target`.
 12. Sort binary array
 13. Find equilibrium index of an array (two pointers)
+14. Most frequent element in an array (Hashing/Hashtable - Moore's Voting Algorithm)
 
 # MATRIX
 30.
@@ -26,7 +27,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 61. Rotate the array by `d` position to the left. [branch_61](https://github.com/CarlitosDroid/java-datastructures-algorithms-exercises/tree/exercise_61)
 62. Get index, lastIndex, indexFromIndex of a character, char of a string, search substring and verify string contains a sequence
 63. Sort string of characters
-64. Print the frequency of each character in Alphabetical order
+64. Print the frequency of each character in Alphabetical order (Hashing/Hashtable)
 65. Print all substrings of a given string
 66. Check if a given string is Palindrome
 67. Check if two strings are anagram of each other
