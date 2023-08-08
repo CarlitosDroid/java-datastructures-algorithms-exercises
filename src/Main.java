@@ -28,7 +28,7 @@ public class Main {
         System.out.println("the new array is " + Arrays.toString(array));
     }
 
-    private static void sortArray1(int[] array, int n) {
+    private static void sortArray1(int[] array, int n) { // Quicksort - partition
         int pivot = 1;
         int j = 0; // count zeros and the position where it should move
         for (int i = 0; i < n - 1; i++) {
