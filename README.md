@@ -10,7 +10,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 5. Return an array containing the product and sorted from smallest to largest.
 6. Segregate 0s and 1s in an array.
 7. find subarray with given sum (Sliding Window).
-8. Given an array. Calculate the maximum sum of `k` consecutive elements (Sliding Window).
+8. Given an array. Calculate the maximum sum of `k` consecutive elements (Sliding Window, Kadane's algorithm).
 9. Find the closest value to zero from an array of positives and negatives.
 10. Find minimum difference between 2 numbers in an array of size `n`.
 11. Find a pair of numbers that add up to a `target`.
