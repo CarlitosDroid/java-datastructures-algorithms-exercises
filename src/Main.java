@@ -4,8 +4,7 @@ public class Main {
         int[] array = new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4};
         int k = 4; // size of subarray
         //System.out.println("Max sum of " + maxSubArraySum(array, array.length, k));
-        //System.out.println("Max sum of " + maxSubArraySum1(array, array.length, k));
-        System.out.println("Max sum of " + maxSubArraySum2(array, array.length));
+        System.out.println("Max sum of " + maxSubArraySum1(array, array.length, k));
     }
 
     /**
@@ -47,30 +46,6 @@ public class Main {
         }
 
         return maxSum;
-    }
-
-    /**
-     * Using Kadane's Algorithm
-     * Time Complexity: O(n)
-     *
-     */
-    static int maxSubArraySum2(int[] array, int n) { // Kadane's Algorithm
-        int max_so_far = Integer.MIN_VALUE;
-        int max_ending_here = 0;
-
-        for (int i = 0; i < n; i++) {
-
-            max_ending_here += array[i];
-
-            if (max_so_far < max_ending_here){
-                max_so_far = max_ending_here;
-            }
-
-            if (max_ending_here < 0){
-                max_ending_here = 0;
-            }
-        }
-        return max_so_far;
     }
 
 }
