@@ -18,6 +18,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 13. Find equilibrium index of an array (two pointers).
 14. Most frequent element in an array (Hashing/Hashtable - Moore's Voting Algorithm).
 15. Move all zeros to the end (Quicksort/partition).
+16. Find maximum product subarray
 
 
 # MATRIX
