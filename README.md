@@ -20,6 +20,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 15. Move all zeros to the end (Quicksort/partition).
 16. Find maximum product subarray (Kadane's algorithm)
 17. Find maximum sum subarray (Kadane's algorithm)
+18. Calculate average of an array (Iterative and Recursive)
 
 
 # MATRIX
