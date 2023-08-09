@@ -15,10 +15,10 @@ In this repo you will find more than 100 solutions to the most known interview d
 10. Find minimum difference between 2 numbers in an array of size `n`.
 11. Find a pair of numbers that add up to a `target`.
 12. Sort binary array (Quicksort/partition).
-13. Find equilibrium index of an array (two pointers).
+13. Find equilibrium index of an array (Two Pointers).
 14. Most frequent element in an array (Hashing/Hashtable - Moore's Voting Algorithm).
 15. Move all zeros to the end (Quicksort/partition).
-16. Find maximum product subarray
+16. Find maximum product subarray (Kadane's algorithm)
 
 
 # MATRIX
