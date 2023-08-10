@@ -1,22 +1,47 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class Main {
 
     public static void main(String[] args) {
-        String str = "MCMIV";
+        String str = "III"; // IV
+        //System.out.println("The value is " + romanToInt(str));
         System.out.println("The value is " + romanToNumber(str, str.length()));
+        System.out.println("The value is " + romanToNumber2(str, str.length()));
     }
 
-    private static int romanToNumber(String str, int n) {
+    private static final Map<Character, Integer> map = new HashMap<>() {{
+        put('I', 1);
+        put('V', 5);
+        put('X', 10);
+        put('L', 50);
+        put('C', 100);
+        put('D', 500);
+        put('M', 1000);
+    }};
+
+    private static int romanToNumber(String str, int n) { // Hashing
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            if (i != n - 1 && map.get(str.charAt(i)) < map.get(str.charAt(i + 1))) {
+                sum += map.get(str.charAt(i + 1)) - map.get(str.charAt(i));
+            } else {
+                sum += map.get(str.charAt(i));
+            }
+        }
+        return sum;
+    }
+
+
+    private static int romanToNumber2(String str, int n) { // hacerlo con hashinggggg
         int sum = 0;
 
         for (int i = 0; i < n; i++) {
-            int value1 = intValue(str.charAt(i));
-            int value2 = intValue(str.charAt(i + 1));
-
-            if (i != n - 1 && value1 < value2) {
-                sum += value2 - value1;
+            if (i != n - 1 && intValue(str.charAt(i)) < intValue(str.charAt(i + 1))) {
+                sum += intValue(str.charAt(i + 1)) - intValue(str.charAt(i));
                 i++;
             } else {
-                sum += value1;
+                sum += intValue(str.charAt(i));
             }
         }
         return sum;
