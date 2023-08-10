@@ -4,10 +4,10 @@ import java.util.Map;
 public class Main {
 
     public static void main(String[] args) {
-        String str = "III"; // IV
+        String str = "IV"; // IV
         //System.out.println("The value is " + romanToInt(str));
         System.out.println("The value is " + romanToNumber(str, str.length()));
-        System.out.println("The value is " + romanToNumber2(str, str.length()));
+        //System.out.println("The value is " + romanToNumber2(str, str.length()));
     }
 
     private static final Map<Character, Integer> map = new HashMap<>() {{
@@ -25,6 +25,7 @@ public class Main {
         for (int i = 0; i < n; i++) {
             if (i != n - 1 && map.get(str.charAt(i)) < map.get(str.charAt(i + 1))) {
                 sum += map.get(str.charAt(i + 1)) - map.get(str.charAt(i));
+                i++;
             } else {
                 sum += map.get(str.charAt(i));
             }
