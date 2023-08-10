@@ -38,6 +38,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 66. Check if a given string is Palindrome
 67. Check if two strings are anagram of each other
 68. Print all subsequences of a string
+69. Convert roman to number
 
 # LINKED LIST
 
