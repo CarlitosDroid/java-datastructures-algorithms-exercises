@@ -29,7 +29,7 @@ public class Main {
     /**
      * Using Kadane's Algorithm
      * Time Complexity: O(n)
-     *
+     * Remember that a subarray is a CONTIGUOUS part of array.
      */
     static int maxSubArraySum2(int[] array, int n) { // Kadane's Algorithm
         int maxSoFar = Integer.MIN_VALUE;
