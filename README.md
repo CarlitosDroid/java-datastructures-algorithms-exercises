@@ -22,6 +22,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 17. Find maximum sum subarray (Kadane's algorithm)
 18. Calculate average of an array (Iterative and Recursive)
 19. Print all interleavings of two strings (Recursive)
+20. Add One to array (List)
 
 
 # MATRIX
