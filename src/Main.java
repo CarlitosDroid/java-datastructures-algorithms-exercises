@@ -4,11 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
         int[] array = new int[] {1, 9, 9};
-        longestCommonPrefix(array);
-        AddOne(array);
+        addOne1(array);
+        addOne2(array);
     }
 
-    private static void longestCommonPrefix(int[] array) {  // using multiple conversions
+    private static void addOne1(int[] array) {  // using multiple conversions
         StringBuilder stringBuilder = new StringBuilder();
 
         for (int i = 0; i < array.length; i++) {
@@ -17,12 +17,11 @@ public class Main {
 
         int number = Integer.parseInt(stringBuilder.toString());
         number++;
-        String newNumbb = String.valueOf(number);
+        String newNumber = String.valueOf(number);
 
-        char[] chars = newNumbb.toCharArray();
+        char[] chars = newNumber.toCharArray();
 
         int[] numbers = new int[chars.length];
-
         for (int i = 0; i < chars.length; i++) {
             numbers[i] = chars[i] - '0';
         }
@@ -30,7 +29,7 @@ public class Main {
         System.out.println(Arrays.toString(numbers));
     }
 
-    private static void AddOne(int[] array) { // using a list
+    private static void addOne2(int[] array) { // using a list
         List<Integer> vector = new Vector<>();
         for (int i = 0; i < array.length; i++) {
             vector.add(array[i]);
@@ -49,7 +48,6 @@ public class Main {
         } else {
             vector.set(index, vector.get(index) + 1); // 199 -> 200
         }
-
         System.out.println(vector);
     }
 
