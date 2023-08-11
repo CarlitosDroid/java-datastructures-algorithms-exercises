@@ -7,26 +7,19 @@ public class Main {
     public static void main(String[] args) {
         int[] array = new int[]{3, 8, 3};
         int n = array.length;
-        findEquilibriumIndex(array, n);
+        findEquilibriumIndex1(array, n);
     }
 
     private static void findEquilibriumIndex1(int[] array, int n) {
         int total = IntStream.of(array).sum();
+        int left = 0;
 
-        int right = 0;
-
-        List<Integer> indices = new ArrayList<>();
-
-        for (int i = array.length - 1; i >= 0; i--) {
-
-            if (right == total - (array[i] + right)) {
-                indices.add(i);
+        for (int i = 0; i < n; i++) {
+            if (total - (array[i] + left) == left) {
+                System.out.println("The equilibrium is " + i);
             }
-
-            right += array[i];
+            left += array[i];
         }
-
-        System.out.println("Equilibrium Index found at " + indices);
     }
 
     /**
