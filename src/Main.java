@@ -3,10 +3,8 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        String s1 = "11";
-        String s2 = "11";
         int[] array = new int[] {1, 9, 9};
-        //longestCommonPrefix(array);
+        longestCommonPrefix(array);
         AddOne(array);
     }
 
@@ -55,23 +53,4 @@ public class Main {
         System.out.println(vector);
     }
 
-
-//    private static void longestCommonPrefix(String s1, String s2) {  // horizontal
-//        int i = s1.length() - 1;
-//        int j = s2.length() - 1;
-//        int carry = 0;
-//        int sum = 0;
-//        StringBuilder result = new StringBuilder();
-//
-//        while (i >= 0 || j >= 0 || carry == 1) {
-//            sum = carry;
-//            if (i >= 0) sum = sum + Character.getNumericValue(s1.charAt(i));
-//            if (j >= 0) sum = sum + Character.getNumericValue(s2.charAt(j));
-//            result.append((char) (sum % 2 + '0'));
-//            carry = sum / 2;
-//            i--;
-//            j--;
-//        }
-//        System.out.println(result.reverse().toString());
-//    }
 }
