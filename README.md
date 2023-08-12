@@ -23,6 +23,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 18. Calculate average of an array (Iterative and Recursive)
 19. Print all interleavings of two strings (Recursive)
 20. Add One to number in array (List)
+21. Check if a number can be represented by two squares
 
 
 # MATRIX
