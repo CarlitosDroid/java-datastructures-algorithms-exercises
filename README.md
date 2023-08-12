@@ -24,6 +24,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 19. Print all interleavings of two strings (Recursive)
 20. Add One to number in array (List)
 21. Check if a number can be represented by two squares
+22. Reverse digits of a number
 
 
 # MATRIX
