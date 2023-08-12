@@ -48,8 +48,10 @@ In this repo you will find more than 100 solutions to the most known interview d
 90. Merge two linked lists
 
 # SET
+120.
 
 # STACK
+150. Check for balanced brackets - valid parentheses
 
 # QUEUE
 
