@@ -1,38 +1,23 @@
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Stack;
 
 public class Main {
 
     public static void main(String[] args) {
-        areBracketsBalanced("{()}[]");
+        areBracketsBalanced(144);
     }
 
-    private static void areBracketsBalanced(String str) {
-        Stack<Character> stack = new Stack<>();
-
-        for (char c : str.toCharArray()) {
-            if (c == '(' || c == '[' || c == '{') {
-                stack.push(c);
-            } else {
-                if (stack.isEmpty()) {
-                    System.out.println("Invalid parenthesis");
-                    return;
-                } else {
-                    char top = stack.peek();
-                    if (top == '(' && c == ')' ||
-                            top == '[' && c == ']' ||
-                            top == '{' && c == '}') {
-                        stack.pop();
-                    } else {
-                        System.out.println("Invalid parenthesis");
-                    }
-                }
+    private static void areBracketsBalanced(int N) {
+        Map<Float, Float> map = new HashMap<>();
+        for (int i = 2; i * i <= N; i++) {
+            map.put((float) (i * i), (float) 1); // 4, 9, 16, 36, ... 144
+            System.out.println(N / (i * i));
+            if (map.containsKey((float) N / (i * i))) { // 144 / 36 = 4 (already exist)
+                System.out.println("YES");
+                return;
             }
         }
-
-        if(stack.isEmpty()) {
-            System.out.println("IS VALID");
-        } else {
-            System.out.println("IS NOT VALID");
-        }
+        System.out.println("NO");
     }
 }
