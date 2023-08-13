@@ -52,6 +52,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 # LINKED LIST
 90. Merge two linked lists
 91. Convert Binary Number to Integer
+92. Search Node in Singly Linked List
 
 # SET
 120.
