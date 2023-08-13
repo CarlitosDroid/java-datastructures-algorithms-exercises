@@ -25,6 +25,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 20. Add One to number in array (List)
 21. Check if a number can be represented by two squares
 22. Reverse digits of a number
+23. Sort array and convert their element to squares
 
 
 # MATRIX
