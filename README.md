@@ -45,6 +45,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 70. Longest common prefix amongst an array of strings
 71. Sum two binary strings
 72. Rotate string by 1 count
+73. Find first non-repeating character of string
 
 # LINKED LIST
 90. Merge two linked lists
