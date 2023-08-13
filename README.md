@@ -47,6 +47,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 71. Sum two binary strings
 72. Rotate string by 1 count
 73. Find first non-repeating character of string
+74. Remove vowels and consonants from a string
 
 # LINKED LIST
 90. Merge two linked lists
