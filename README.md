@@ -66,5 +66,5 @@ In this repo you will find more than 100 solutions to the most known interview d
 210. Sort map by key
 
 # TREE
-240. working
+240. Search an element using minimum number of comparisons
 
