@@ -7,7 +7,7 @@ public class Main {
         interleavings(str1, 0, str2, 0, "");
     }
 
-    private static void interleavings(String str1, int i, String str2, int j, String result) { // iterative
+    private static void interleavings(String str1, int i, String str2, int j, String result) { // recursion
 
         if (i == str1.length() && j == str2.length()) {
             System.out.println(result);
