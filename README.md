@@ -39,7 +39,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 63. Sort string of characters
 64. Print the frequency of each character in Alphabetical order (Hashing/Hashtable)
 65. Print all substrings of a given string
-66. Check if a given string is Palindrome
+66. Check if a given string is Palindrome (Iterative - Recursive)
 67. Check if two strings are anagram of each other
 68. Print all subsequences of a string
 69. Convert roman to number
