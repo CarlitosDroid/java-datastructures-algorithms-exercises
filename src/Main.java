@@ -29,10 +29,8 @@ public class Main {
         int result = maxSoFar;
 
         for (int i = 1; i < n; i++) {
-            int curr = array[i];
-            int tempMax = Math.max(curr, Math.max(maxSoFar * curr, minSoFar * curr));
-            minSoFar = Math.min(curr, Math.min(maxSoFar * curr, minSoFar * curr));
-            maxSoFar = tempMax;
+            maxSoFar = Math.max(array[i], Math.max(maxSoFar * array[i], minSoFar * array[i]));
+            minSoFar = Math.min(array[i], Math.min(maxSoFar * array[i], minSoFar * array[i]));
             result = Math.max(maxSoFar, result);
         }
         System.out.println("maximum product is " + result);
