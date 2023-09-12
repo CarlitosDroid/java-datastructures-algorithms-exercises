@@ -61,6 +61,11 @@ In this repo you will find more than 100 solutions to the most known interview d
 
 # STACK
 150. Check for balanced brackets - valid parentheses
+151. Prefix
+152. Infix
+153. PostFix
+154. Check for balanced brackets in an expression
+155. Expression Evaluation
 
 # QUEUE
 
