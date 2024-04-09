@@ -29,7 +29,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 
 
 # MATRIX
-30.
+30. Compute sums of diagonals of a matrix
 
 
 # STRING
