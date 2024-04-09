@@ -3,7 +3,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 
 
 # ARRAY
-1. Return an array containing the product and sorted from smallest to largest.
+1. Return an array containing the square of each element, then sort from smallest to largest.
 
 # MATRIX
 30.
