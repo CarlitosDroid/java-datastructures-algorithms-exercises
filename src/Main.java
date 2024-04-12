@@ -29,17 +29,17 @@ public class Main {
      */
     private static boolean getSubArray2(int[] array, int sum) {
         int currentSum = array[0];
-        int start = 0;
+        int startIndex = 0;
 
         for (int i = 1; i <= array.length; i++) {
-            while (currentSum > sum && start < i - 1) {
-                currentSum -= array[start];
-                start++;
+            while (currentSum > sum && startIndex < i - 1) {
+                currentSum -= array[startIndex];
+                startIndex++;
             }
 
             if(currentSum == sum) {
-                int p = i - 1;
-                System.out.println("Sum found between indexes " + start + " and " + p);
+                int endIndex = i - 1;
+                System.out.println("Sum found between indexes " + startIndex + " and " + endIndex);
                 return true;
             }
 
