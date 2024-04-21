@@ -5,7 +5,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 # ARRAY
 1. Reverse an int array.
 2. Get Maximum and minimum elements of an array.
-3. Find an element which is not smaller than its neighbours.
+3. Find the first element which is not smaller than its neighbours.
 4. Find the k'th smallest/largest element in unsorted array.
 5. Return an array containing the square of each element, then sort from smallest to largest.
 6. Segregate 0s and 1s in an array.
