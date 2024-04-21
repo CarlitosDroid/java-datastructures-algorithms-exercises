@@ -6,7 +6,7 @@ In this repo you will find more than 100 solutions to the most known interview d
 1. Reverse an int array.
 2. Get Maximum and minimum elements of an array.
 3. Find the first element which is not smaller than its neighbours.
-4. Find the k'th smallest/largest element in unsorted array.
+5. Find the k'th smallest/largest element in unsorted array. (and find the second smallest element - works if elements are not repeat).
 5. Return an array containing the square of each element, then sort from smallest to largest.
 6. Segregate 0s and 1s in an array.
 7. find subarray with given sum (Sliding Window).
