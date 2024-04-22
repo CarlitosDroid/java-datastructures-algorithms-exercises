@@ -25,7 +25,7 @@ public class Main {
     }
 
     /**
-     * Using sliding window
+     * Using sliding window (add and subtract)
      */
     private static boolean getSubArray2(int[] array, int sum) {
         int currentSum = array[0];
@@ -33,7 +33,7 @@ public class Main {
 
         for (int i = 1; i <= array.length; i++) {
             while (currentSum > sum && startIndex < i - 1) {
-                currentSum -= array[startIndex];
+                currentSum -= array[startIndex]; // Substract
                 startIndex++;
             }
 
@@ -44,7 +44,7 @@ public class Main {
             }
 
             if (i < array.length) {
-                currentSum += array[i];
+                currentSum += array[i]; // Add
             }
         }
 
