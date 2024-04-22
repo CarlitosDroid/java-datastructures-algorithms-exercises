@@ -26,7 +26,7 @@ public class Main {
     }
 
     /**
-     * Using Sliding Window
+     * Using Sliding Window (add and subtract)
      * Time Complexity: O(n)
      *
      * @param k The size of subarray
@@ -41,7 +41,7 @@ public class Main {
         int windowSum = maxSum;
 
         for (int i = k; i < n; i++) {
-            windowSum += array[i] - array[i - k];
+            windowSum += array[i] - array[i - k]; // Add and Subtract
             maxSum = Math.max(maxSum, windowSum);
         }
 
