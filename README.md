@@ -9,8 +9,8 @@ In this repo you will find more than 100 solutions to the most known interview d
 5. Find the k'th smallest/largest element in unsorted array. (and find the second smallest element - works if elements are not repeat).
 5. Return an array containing the square of each element, then sort from smallest to largest.
 6. Segregate 0s and 1s in an array.
-7. find subarray with given sum (Sliding Window).
-8. Given an array. Calculate the maximum sum of `k` consecutive elements (Sliding Window).
+7. find subarray with given sum (Sliding Window - you dont know the size of the window).
+8. Given an array. Calculate the maximum sum of `k` consecutive elements (Sliding Window - you know the size of the window).
 9. Find the closest value to zero from an array of positives and negatives.
 10. Find minimum difference between 2 numbers in an array of size `n`.
 11. Find a pair of numbers that add up to a `target`.
